@@ -1,0 +1,18 @@
+#scrollUp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+}
+
+.icon-bg {
+  background-color: rgb(235 244 237);
+  position: fixed;
+  bottom: 17px;
+  right: 12px;
+
+  height: 40px;
+  width: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
