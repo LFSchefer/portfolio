@@ -3,6 +3,7 @@ import ScrollBar from './components/ScrollBar';
 import ScrollUp from './components/ScrollUp';
 import NiceMesses from './components/NiceMesses';
 import Link from './components/Link';
+import Password from './components/Password';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <ScrollBar/>
       <Link/>
       <NiceMesses/>
+      <Password/>
       <ScrollUp/>
     </div>
   );

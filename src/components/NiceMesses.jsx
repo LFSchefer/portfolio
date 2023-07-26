@@ -20,24 +20,24 @@ export default function NiceMesses() {
 
   return (
     <div className="shadow-box">
-    <div className="card">
-      <div className="card-info">
-        <div className="card-title">
-          <h2>Nices Messes</h2>
+      <div className="card">
+        <div className="card-info">
+          <div className="card-title">
+            <h2>Nices Messes</h2>
+          </div>
+          <div className="card-txt">
+            <p><strong>Presentation:</strong></p>
+            <p>Application d'itinéraire avec map et instruction & d'art animé unique en fonction des donnée de l'itinéraire, météo etc...</p>
+            <p><strong>info supplementaire:</strong></p>
+            <p>Project de fin de formation,<br /> codé en équipe à 4 en deux semaines.</p>
+          </div>
         </div>
-        <div className="card-txt">
-          <p><strong>Presentation:</strong></p>
-          <p>Application d'itinéraire avec map et instruction & d'art animé unique en fonction des donnée de l'itinéraire, météo etc...</p>
-          <p><strong>info supplementaire:</strong></p>
-          <p>Project de fin de formation,<br /> codé en équipe à 4 en deux semaines.</p>
+        <div className="vdo">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_8g3QtiEXC0?start=5078" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
+        <div className="btn-stack" onClick={handleClick}>Stack</div>
       </div>
-      <div className="vdo">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/_8g3QtiEXC0?start=5078" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
-      <div className="btn-stack" onClick={handleClick}>Stack</div>
-    </div>
-    {stack}
+      {stack}
     </div>
   )
 
