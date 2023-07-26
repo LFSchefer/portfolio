@@ -1,4 +1,83 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   min-height: 300vh;
+}
+
+.card {
+  background-color: #ebf4ed;
+  width: 100%;
+  margin: 50px auto 0 auto;
+  display: flex;
+  padding: 12px;
+  border-radius: 8px;
+  position: relative;
+  z-index: 1;
+}
+
+.card-info {
+  width: 50%;
+  padding: 0 8px;
+}
+
+.stack {
+  width: 100%;
+  background-color: #cfe3d3;
+  margin: 0 auto;
+  padding: 12px;
+  border-radius: 0 0  8px 8px;
+  margin-top: -160px;
+  animation: revel-reverse 1s ease;
+}
+
+@keyframes revel-reverse {
+  from{margin-top: -8px;}
+  to {margin-top: -160px;}
+}
+
+.stack p {
+  padding-left: 26px;
+}
+
+.stack-anim {
+  width: 100%;
+  background-color: #cfe3d3;
+  margin: 0 auto;
+  padding: 12px;
+  border-radius: 0 0  8px 8px;
+  margin-top: -8px;
+  animation: revel 1s ease;
+}
+
+@keyframes revel {
+  from{margin-top: -160px;}
+  to {margin-top: -8px;}
+}
+
+.stack-anim p {
+  padding-left: 26px;
+}
+
+a {
+  color: black;
+}
+
+.btn-stack {
+  width: 55px;
+  height: 25px;
+  background-color: #04AA6D;
+  border-radius: 8px;
+  text-align: center;
+  position: absolute;
+  bottom: 14px;
+  left: 2%;
+  z-index: 2;
+  cursor: pointer;
+  color: white;
+}
+
+.shadow-box {
+  width: 70%;
+  box-shadow: 9px 0px 26px 17px rgba(0,0,0,0.15);
+  margin: 0 auto;
+  border-radius: 8px;
 }
