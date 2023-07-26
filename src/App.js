@@ -5,6 +5,9 @@ import NiceMesses from './components/NiceMesses';
 import Link from './components/Link';
 import Password from './components/Password';
 
+
+// TODO new anim for first loading "stack"
+
 function App() {
   return (
     <div className="App">

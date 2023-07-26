@@ -26,6 +26,15 @@
   padding: 12px;
   border-radius: 0 0  8px 8px;
   margin-top: -160px;
+}
+
+.stack-back {
+  width: 100%;
+  background-color: #cfe3d3;
+  margin: 0 auto;
+  padding: 12px;
+  border-radius: 0 0  8px 8px;
+  margin-top: -160px;
   animation: revel-reverse 1s ease;
 }
 
@@ -34,7 +43,11 @@
   to {margin-top: -160px;}
 }
 
-.stack p {
+.stack-anim p {
+  padding-left: 26px;
+}
+
+.stack-back p {
   padding-left: 26px;
 }
 
@@ -80,4 +93,10 @@ a {
   box-shadow: 9px 0px 26px 17px rgba(0,0,0,0.15);
   margin: 0 auto;
   border-radius: 8px;
+}
+
+.github-project-link {
+  position: absolute;
+  bottom: 4.2%;
+  left: 9%;
 }

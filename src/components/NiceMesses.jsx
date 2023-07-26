@@ -4,12 +4,17 @@ import "./NiceMesses.css";
 export default function NiceMesses() {
 
   const [extend, setExtend] = React.useState(false)
+  const [neverExtend, setNeverExtend] = React.useState(true)
+
 
   const handleClick = () => {
     setExtend(prev => !prev)
+    setNeverExtend(false)
   }
 
-  const stack = <div className={extend ? "stack-anim" : "stack"}>
+  const stack = <div className={
+    neverExtend ? "stack" :
+    extend ? "stack-anim" : "stack-back"}>
   <p><strong>Stack Technique:</strong></p>
   <ul>
     <li>Back end: Ruby on Rails</li>
@@ -33,7 +38,7 @@ export default function NiceMesses() {
           </div>
         </div>
         <div className="vdo">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/_8g3QtiEXC0?start=5078" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_8g3QtiEXC0?start=5078" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
         </div>
         <div className="btn-stack" onClick={handleClick}>Stack</div>
       </div>
