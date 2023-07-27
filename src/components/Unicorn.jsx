@@ -19,7 +19,7 @@ export default function Unicorn() {
   <p><strong>Stack Technique:</strong></p>
   <ul>
     <li>Back end: Ruby on Rails, Gem: Devise Pundit Faker</li>
-    <li>Front end: Stimulus, Bootstrap, Flatpick</li>
+    <li>Front end: Stimulus, Bootstrap, Flatpick, recherche AJAX</li>
     <li>Minitest model & system</li>
   </ul>
 </div>
@@ -40,7 +40,7 @@ export default function Unicorn() {
             <p>Project solo et toujours en cours</p>
           </div>
         </div>
-        <div className="img-baner" style={{ backgroundImage: "url('/images/Password-baner.png')" }}>
+        <div className="img-baner" style={{ backgroundImage: "url('/images/Unicorn-banner.png')" }}>
         </div>
         <div className="btn-stack" onClick={handleClick}>Stack</div>
         <a href="https://github.com/LFSchefer/unicorn_hub" target="blank" style={{marginTop: "12px"}} className="github-project-link">
