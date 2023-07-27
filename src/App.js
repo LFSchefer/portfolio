@@ -4,9 +4,7 @@ import ScrollUp from './components/ScrollUp';
 import NiceMesses from './components/NiceMesses';
 import Link from './components/Link';
 import Password from './components/Password';
-
-
-// TODO new anim for first loading "stack"
+import Unicorn from './components/Unicorn';
 
 function App() {
   return (
@@ -15,7 +13,9 @@ function App() {
       <Link/>
       <NiceMesses/>
       <Password/>
+      <Unicorn/>
       <ScrollUp/>
+      <div className="buttom-page"></div>
     </div>
   );
 }
