@@ -32,8 +32,8 @@ export default function ScrollUp() {
     document.documentElement.scrollTop = 0;
   }
 
-  const icon = <div className='icon-bg' onClick={goTop} style={{opacity: scrolled.number / 80}} >
-    <FontAwesomeIcon icon={faArrowUp} id='scrollUp' size='2xl' style={{opacity: scrolled.number / 80, color: "#04AA6D"}} />
+  const icon = <div className='icon-bg' onClick={goTop} style={{opacity: scrolled.number / 45}} >
+    <FontAwesomeIcon icon={faArrowUp} id='scrollUp' size='2xl' style={{opacity: scrolled.number / 45, color: "#04AA6D"}} />
   </div>
 
   return (
