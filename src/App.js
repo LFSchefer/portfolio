@@ -5,6 +5,7 @@ import NiceMesses from './components/NiceMesses';
 import Link from './components/Link';
 import Password from './components/Password';
 import Unicorn from './components/Unicorn';
+import Separation from './components/Separation';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <ScrollBar/>
       <Link/>
       <NiceMesses/>
+      <Separation/>
       <Password/>
       <Unicorn/>
       <ScrollUp/>
