@@ -11,10 +11,6 @@ export default function Separation() {
 
   let overlap = scrollY / window.innerWidth
 
-  // console.log(4*overlap)
-  // console.log(scrollY)
-  // console.log(window.innerWidth)
-
   React.useEffect(() => {
     function watchScroll() {
       document.addEventListener("scroll", handleScroll)
@@ -26,7 +22,7 @@ export default function Separation() {
   },[])
 
   const line1 = <div className="line1"
-  style={{right: 500 + scrollY * 1 < window.innerWidth ? scrollY * 1 : scrollY * 1 - ((Math.floor(1 * overlap) * window.innerWidth) + 314) }}>
+  style={{right: scrollY * 1 < window.innerWidth ? scrollY * 1 : scrollY * 1 - ((Math.floor(1 * overlap) * window.innerWidth) + 314) }}>
   </div>
 
   const line2 = <div className="line2"

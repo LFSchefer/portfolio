@@ -15,6 +15,7 @@ function App() {
       <NiceMesses/>
       <Separation/>
       <Password/>
+      <Separation/>
       <Unicorn/>
       <ScrollUp/>
       <div className="buttom-page"></div>
