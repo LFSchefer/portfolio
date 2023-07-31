@@ -1,5 +1,6 @@
 import * as React from "react"
 import "./Separation.css"
+import MovingElement from "./MovingElement"
 
 export default function Separation(props) {
 
@@ -23,80 +24,72 @@ export default function Separation(props) {
 
   // const direction = props.direction1
 
-  const line1 = <div className="line1"
-  style={{right: scrollY * 1 < window.innerWidth ?
-  scrollY * 1 :
-  scrollY * 1 - ((Math.floor(1 * overlap) * window.innerWidth) + 314),
-  backgroundColor: props.color,
-  boxShadow: props.shadowColor }}>
-  </div>
-
-  const line2 = <div className="line2"
-  style={{right: scrollY * 2  < window.innerWidth ?
-  scrollY * 2 :
-  scrollY * 2 - ((Math.floor(2 * overlap) * window.innerWidth) + 214),
-  backgroundColor: props.color,
-  boxShadow: props.shadowColor  }}>
-  </div>
-
-  const line3 = <div className="line3"
-  style={{right: scrollY * 1.5 < window.innerWidth ?
-   scrollY * 1.5 :
-   scrollY * 1.5 - ((Math.floor(1.5 * overlap) * window.innerWidth) + 600),
-   backgroundColor: props.color,
-   boxShadow: props.shadowColor }}>
-  </div>
-
-  const line4 = <div className="line4"
-  style={{right: scrollY * 3 < window.innerWidth ?
-  scrollY * 3 :
-  scrollY * 3 - ((Math.floor(3 * overlap) * window.innerWidth) + 145),
-  backgroundColor: props.color,
-  boxShadow: props.shadowColor }}>
-  </div>
-
-  const line11 = <div className="line11"
-  style={{right: scrollY * 0.2 < window.innerWidth ?
-  scrollY * 0.2 :
-  scrollY * 0.2 - ((Math.floor(0.2 * overlap) * window.innerWidth) + 450),
-  backgroundColor: props.color,
-  boxShadow: props.shadowColor }}>
-  </div>
-
-  const line21 = <div className="line21"
-  style={{right: scrollY * 0.8  < window.innerWidth ?
-  scrollY * 0.8 :
-  scrollY * 0.8 - ((Math.floor(0.8 * overlap) * window.innerWidth) + 356),
-  backgroundColor: props.color,
-  boxShadow: props.shadowColor }}>
-  </div>
-
-  const line31 = <div className="line31"
-  style={{right: scrollY * 4 < window.innerWidth ?
-   scrollY * 4 :
-   scrollY * 4 - ((Math.floor(4 * overlap) * window.innerWidth) + 170),
-   backgroundColor: props.color,
-   boxShadow: props.shadowColor }}>
-  </div>
-
-  const line41 = <div className="line41"
-  style={{right: scrollY * 1 < window.innerWidth ?
-   scrollY * 1 :
-   scrollY * 1 - ((Math.floor(1 * overlap) * window.innerWidth) + 427),
-   backgroundColor: props.color,
-   boxShadow: props.shadowColor }}>
-  </div>
-
   return (
     <div className="separation" >
-      {line1}
-      {line11}
-      {line2}
-      {line21}
-      {line3}
-      {line31}
-      {line4}
-      {line41}
+      <MovingElement className={"line1"}
+      speed={1}
+      scrollY={scrollY}
+      overlap={overlap}
+      color={props.color}
+      shadowColor={props.shadowColor}
+      width={314}
+      top={"0px"}/>
+      <MovingElement className={"line11"}
+      speed={0.2}
+      scrollY={scrollY}
+      overlap={overlap}
+      color={props.color}
+      shadowColor={props.shadowColor}
+      width={450}
+      top={"0px"}/>
+      <MovingElement className={"line2"}
+      speed={2}
+      scrollY={scrollY}
+      overlap={overlap}
+      color={props.color}
+      shadowColor={props.shadowColor}
+      width={214}
+      top={"15px"}/>
+      <MovingElement className={"line21"}
+      speed={0.8}
+      scrollY={scrollY}
+      overlap={overlap}
+      color={props.color}
+      shadowColor={props.shadowColor}
+      width={356}
+      top={"15px"}/>
+      <MovingElement className={"line3"}
+      speed={1.5}
+      scrollY={scrollY}
+      overlap={overlap}
+      color={props.color}
+      shadowColor={props.shadowColor}
+      width={600}
+      top={"30px"}/>
+      <MovingElement className={"line31"}
+      speed={4}
+      scrollY={scrollY}
+      overlap={overlap}
+      color={props.color}
+      shadowColor={props.shadowColor}
+      width={170}
+      top={"30px"}/>
+      <MovingElement className={"line4"}
+      speed={3}
+      scrollY={scrollY}
+      overlap={overlap}
+      color={props.color}
+      shadowColor={props.shadowColor}
+      width={145}
+      top={"45px"}/>
+      <MovingElement className={"line41"}
+      speed={1}
+      scrollY={scrollY}
+      overlap={overlap}
+      color={props.color}
+      shadowColor={props.shadowColor}
+      width={427}
+      top={"45px"}/>
     </div>
   )
 }
