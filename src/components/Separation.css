@@ -1,6 +1,5 @@
 .separation {
   min-height: 150px;
-  /* background-color: aquamarine; */
   margin-top: 120px;
   margin-bottom: 80px;
   position: relative;
@@ -9,10 +8,11 @@
 .line1 {
   height: 30px;
   background-color: #04AA6D;
-  width: 15%;
+  width: 22%;
   position: absolute;
   top: 0px;
   border-radius: 8px;
+  box-shadow: 0px 0px 8px 1px #04aa6d8f;
 }
 
 .line2 {
@@ -22,22 +22,25 @@
   position: absolute;
   top: 40px;
   border-radius: 8px;
+  box-shadow: 0px 0px 8px 1px #04aa6d8f;
 }
 
 .line3 {
   height: 30px;
   background-color: #04AA6D;
-  width: 15%;
+  width: 42%;
   position: absolute;
   top: 80px;
   border-radius: 8px;
+  box-shadow: 0px 0px 8px 1px #04aa6d8f;
 }
 
 .line4 {
   height: 30px;
   background-color: #04AA6D;
-  width: 15%;
+  width: 10%;
   position: absolute;
   top: 120px;
   border-radius: 8px;
+  box-shadow: 0px 0px 8px 1px #04aa6d8f;
 }
