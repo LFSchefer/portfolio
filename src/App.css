@@ -1,3 +1,7 @@
+.App {
+  overflow-x: auto;
+}
+
 .buttom-page {
   min-height: 25vh;
 }

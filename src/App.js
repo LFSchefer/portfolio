@@ -13,9 +13,17 @@ function App() {
       <ScrollBar/>
       <Link/>
       <NiceMesses/>
-      <Separation/>
+      <Separation
+      color={"#04AA6D"}
+      shadowColor={"0px 0px 5px 0px #04aa6d8f"}
+      direction1={"right"}
+      />
       <Password/>
-      <Separation/>
+      <Separation
+      color={"#04AA6D"}
+      shadowColor={"0px 0px 5px 0px #04aa6d8f"}
+      direction1={"right"}
+      />
       <Unicorn/>
       <ScrollUp/>
       <div className="buttom-page"></div>
