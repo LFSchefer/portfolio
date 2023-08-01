@@ -7,7 +7,8 @@ import Password from './components/Password';
 import Unicorn from './components/Unicorn';
 import Separation from './components/Separation';
 
-// TODO read.md for unicorn
+// TODO readme.md for unicorn
+//  readme.md for portfolio
 //  password react nativ ?
 //  react mini game react router
 
