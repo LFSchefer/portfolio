@@ -7,6 +7,10 @@ import Password from './components/Password';
 import Unicorn from './components/Unicorn';
 import Separation from './components/Separation';
 
+// TODO read.md for unicorn
+//  password react nativ ?
+//  react mini game react router
+
 function App() {
   return (
     <div className="App">
