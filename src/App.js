@@ -22,7 +22,7 @@ function App() {
       <Separation
       color={"#04AA6D"}
       shadowColor={"0px 0px 5px 0px #04aa6d8f"}
-      direction={"right"}
+      direction={"left"}
       />
       <Unicorn/>
       <ScrollUp/>

@@ -22,8 +22,6 @@ export default function Separation(props) {
     }
   },[])
 
-  // const direction = props.direction1
-
   return (
     <div className="separation" >
       <MovingElement className={"line1"}
@@ -32,6 +30,7 @@ export default function Separation(props) {
       overlap={overlap}
       color={props.color}
       shadowColor={props.shadowColor}
+      direction={props.direction}
       width={314}
       top={"0px"}/>
       <MovingElement className={"line11"}
@@ -40,6 +39,7 @@ export default function Separation(props) {
       overlap={overlap}
       color={props.color}
       shadowColor={props.shadowColor}
+      direction={props.direction}
       width={450}
       top={"0px"}/>
       <MovingElement className={"line2"}
@@ -48,6 +48,7 @@ export default function Separation(props) {
       overlap={overlap}
       color={props.color}
       shadowColor={props.shadowColor}
+      direction={props.direction}
       width={214}
       top={"15px"}/>
       <MovingElement className={"line21"}
@@ -56,6 +57,7 @@ export default function Separation(props) {
       overlap={overlap}
       color={props.color}
       shadowColor={props.shadowColor}
+      direction={props.direction}
       width={356}
       top={"15px"}/>
       <MovingElement className={"line3"}
@@ -64,6 +66,7 @@ export default function Separation(props) {
       overlap={overlap}
       color={props.color}
       shadowColor={props.shadowColor}
+      direction={props.direction}
       width={600}
       top={"30px"}/>
       <MovingElement className={"line31"}
@@ -72,6 +75,7 @@ export default function Separation(props) {
       overlap={overlap}
       color={props.color}
       shadowColor={props.shadowColor}
+      direction={props.direction}
       width={170}
       top={"30px"}/>
       <MovingElement className={"line4"}
@@ -80,6 +84,7 @@ export default function Separation(props) {
       overlap={overlap}
       color={props.color}
       shadowColor={props.shadowColor}
+      direction={props.direction}
       width={145}
       top={"45px"}/>
       <MovingElement className={"line41"}
@@ -88,6 +93,7 @@ export default function Separation(props) {
       overlap={overlap}
       color={props.color}
       shadowColor={props.shadowColor}
+      direction={props.direction}
       width={427}
       top={"45px"}/>
     </div>
