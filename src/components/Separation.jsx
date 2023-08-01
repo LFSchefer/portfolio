@@ -39,7 +39,7 @@ export default function Separation(props) {
       overlap={overlap}
       color={props.color}
       shadowColor={props.shadowColor}
-      direction={props.direction}
+      direction={props.multiway ? props.direction === "right" ? "left" : "right" : props.direction}
       width={450}
       top={"0px"}/>
       <MovingElement className={"line2"}
@@ -57,7 +57,7 @@ export default function Separation(props) {
       overlap={overlap}
       color={props.color}
       shadowColor={props.shadowColor}
-      direction={props.direction}
+      direction={props.multiway ? props.direction === "right" ? "left" : "right" : props.direction}
       width={356}
       top={"15px"}/>
       <MovingElement className={"line3"}
@@ -75,7 +75,7 @@ export default function Separation(props) {
       overlap={overlap}
       color={props.color}
       shadowColor={props.shadowColor}
-      direction={props.direction}
+      direction={props.multiway ? props.direction === "right" ? "left" : "right" : props.direction}
       width={170}
       top={"30px"}/>
       <MovingElement className={"line4"}
@@ -93,7 +93,7 @@ export default function Separation(props) {
       overlap={overlap}
       color={props.color}
       shadowColor={props.shadowColor}
-      direction={props.direction}
+      direction={props.multiway ? props.direction === "right" ? "left" : "right" : props.direction}
       width={427}
       top={"45px"}/>
     </div>
