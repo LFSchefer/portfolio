@@ -6,9 +6,9 @@ import Link from './components/Link';
 import Password from './components/Password';
 import Unicorn from './components/Unicorn';
 import Separation from './components/Separation';
+import ReactMiniGame from './components/ReactMinigame';
 
 // TODO readme.md for unicorn
-//  readme.md for portfolio
 //  password react nativ ?
 //  react mini game react router
 
@@ -30,6 +30,12 @@ function App() {
       direction={"left"}
       />
       <Unicorn/>
+      <Separation
+      color={"#04AA6D"}
+      shadowColor={"0px 0px 5px 0px #04aa6d8f"}
+      direction={"right"}
+      />
+      {/* <ReactMiniGame/> */}
       <ScrollUp/>
       <div className="buttom-page"></div>
     </div>
