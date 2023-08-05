@@ -6,9 +6,11 @@ import Link from './components/Link';
 import Password from './components/Password';
 import Unicorn from './components/Unicorn';
 import Separation from './components/Separation';
+import ReactComponents from './components/ReactComponents';
 import ReactMiniGame from './components/ReactMinigame';
 
-// TODO readme.md for unicorn
+// TODO
+// Meme generator save png + custom import
 //  password react nativ ?
 //  react mini game react router
 
@@ -34,8 +36,10 @@ function App() {
       color={"#04AA6D"}
       shadowColor={"0px 0px 5px 0px #04aa6d8f"}
       direction={"right"}
+      multiway={true}
       />
       {/* <ReactMiniGame/> */}
+      <ReactComponents/>
       <ScrollUp/>
       <div className="buttom-page"></div>
     </div>
