@@ -12,7 +12,6 @@ import ReactMiniGame from './components/ReactMinigame';
 // TODO
 // Meme generator save png + custom import
 //  password react nativ ?
-//  react mini game react router
 
 function App() {
   return (
