@@ -10,7 +10,9 @@ import ReactComponents from './components/ReactComponents';
 import ReactMiniGame from './components/ReactMinigame';
 
 // TODO
+
 // Meme generator save png + custom import
+
 //  password react nativ ?
 
 function App() {
