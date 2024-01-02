@@ -11,6 +11,7 @@ import ReactMiniGame from './components/ReactMinigame';
 
 // TODO
 
+// Refacto card => react comp
 // Meme generator save png + custom import
 //  password react nativ ?
 
