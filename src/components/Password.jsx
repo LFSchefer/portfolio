@@ -20,7 +20,7 @@ export default function Password() {
   <ul>
     <li>Single page React application</li>
     <li>3 differents algoritmes de génération de mot de passe sécuriser</li>
-    <li>Utilisation d'API pour récuperer des mots aléatoire</li>
+    <li>Utilisation d'API pour récuperer des mots aléatoire / Responsive CSS</li>
   </ul>
 </div>
 

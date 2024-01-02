@@ -1,5 +1,6 @@
 .App {
   overflow-x: auto;
+  width: 100%;
 }
 
 .buttom-page {
@@ -8,7 +9,7 @@
 
 .card {
   background-color: #ebf4ed;
-  width: 100%;
+  max-width: 100%;
   margin: 50px auto 0 auto;
   display: flex;
   padding: 12px;
