@@ -1,5 +1,5 @@
 .App {
-  overflow-x: auto;
+  overflow-x: hidden;
   width: 100%;
 }
 
@@ -29,7 +29,8 @@
   margin: 0 auto;
   padding: 12px;
   border-radius: 0 0  8px 8px;
-  margin-top: -160px;
+  margin-top: -158px;
+  display: none;
 }
 
 .stack-back {
@@ -38,13 +39,14 @@
   margin: 0 auto;
   padding: 12px;
   border-radius: 0 0  8px 8px;
-  margin-top: -160px;
+  margin-top: -158px;
   animation: revel-reverse 1s ease;
+  display: none;
 }
 
 @keyframes revel-reverse {
-  from{margin-top: -8px;}
-  to {margin-top: -160px;}
+  from{margin-top: -8px; display: block;}
+  to {margin-top: -158px; display: none;}
 }
 
 .stack-anim p {
@@ -66,12 +68,8 @@
 }
 
 @keyframes revel {
-  from{margin-top: -160px;}
+  from{margin-top: -158px;}
   to {margin-top: -8px;}
-}
-
-.stack-anim p {
-  padding-left: 26px;
 }
 
 a {
