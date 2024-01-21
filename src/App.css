@@ -77,7 +77,7 @@ a {
 }
 
 .shadow-box {
-  /* width: 970px; */
+  max-width: 950px;
   width: 70%;
   box-shadow: 9px 0px 26px 17px rgba(0,0,0,0.15);
   margin: 0 auto;
