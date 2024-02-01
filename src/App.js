@@ -7,7 +7,8 @@ import Password from './components/Password';
 import Unicorn from './components/Unicorn';
 import Separation from './components/Separation';
 import ReactComponents from './components/ReactComponents';
-import ReactMiniGame from './components/ReactMinigame';
+import ChatTracker from './components/ChatTracker'
+// import ReactMiniGame from './components/ReactMinigame';
 
 // TODO
 
@@ -26,18 +27,25 @@ function App() {
       shadowColor={"0px 0px 5px 0px #04aa6d8f"}
       direction={"right"}
       />
-      <Password/>
+      <ChatTracker/>
       <Separation
       color={"#04AA6D"}
       shadowColor={"0px 0px 5px 0px #04aa6d8f"}
       direction={"left"}
+      multiway={true}
       />
       <Unicorn/>
       <Separation
       color={"#04AA6D"}
       shadowColor={"0px 0px 5px 0px #04aa6d8f"}
-      direction={"right"}
+      direction={"left"}
       multiway={true}
+      />
+      <Password/>
+      <Separation
+      color={"#04AA6D"}
+      shadowColor={"0px 0px 5px 0px #04aa6d8f"}
+      direction={"left"}
       />
       {/* <ReactMiniGame/> */}
       <ReactComponents/>
