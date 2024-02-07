@@ -19,7 +19,7 @@ export default function NiceMesses() {
   <ul>
     <li>Back end: Ruby on Rails</li>
     <li>Front end: Stimulus, JS vanilla, intégration de <a href="https://p5js.org/" target="blank">P5JS</a> pour les animations </li>
-    <li>Utilisation d'API: Mapbox (Map / Geolocalisation), Google (Adresse auto complete / itineraire), Météo-concep (prevision météo)</li>
+    <li>API: Mapbox (Map / Geolocalisation), Google (Adresse auto complete / itineraire), Météo-concep (prevision météo)</li>
   </ul>
 </div>
 
