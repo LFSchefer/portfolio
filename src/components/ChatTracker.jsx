@@ -20,7 +20,7 @@ export default function Password() {
   <ul>
     <li>Single page React application</li>
     <li>Connection a plusieurs chats twitch via <a href="https://tmijs.com/" target="blank">TMI.JS</a></li>
-    <li>Retourne une liste de vainqueurs agrégé des différent chat.</li>
+    <li>Retourne une liste de vainqueurs agrégé des différent chat. Possibiliter de faire plusieurs round.</li>
   </ul>
 </div>
 
